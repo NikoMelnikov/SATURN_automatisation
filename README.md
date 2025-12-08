@@ -1,5 +1,5 @@
 ## Структура проекта
-
+```
 SATURN_automatisation/
 ├── .env                                # файл с переменными 
 ├── requirements.txt                    # требования для окружения проекта
@@ -17,7 +17,7 @@ SATURN_automatisation/
 │   └── logs/                           # для логов 
 ├── .gitignore                          # исключения при коммитах в git 
 
-
+```
 ## Вводная информация
 
 Есть довольно подробная документация по SEAPI:
@@ -167,7 +167,8 @@ payload = {
 Как происходят вызовы и сама логика описана в блокноте Invoice_reciving.ipynb
 
 Запускается сервис командой
-```python reciving_inv.py
+```bash
+python reciving_inv.py
 ```
 Логи выводятся в консоль и сохраняются в файле invoice_service.log
 
@@ -180,20 +181,25 @@ payload = {
 Возможен тестовый прогон результатом которого будут сформированыые накладные без реальной отправки в САТУРН.
 
 **Тестовый прогон (по умолчанию - 2 накладные по 2 позиции)**
-```python sending_retail.py
+```bash
+python sending_retail.py
 ```
 **Реальная отправка с параметрами по умолчанию**
-```python sending_retail.py --execute
+```bash
+python sending_retail.py --execute
 ```
 
 **Реальная отправка с другими параметрами**
-```python sending_retail.py --execute --limit 5 --items 1
+```bash
+python sending_retail.py --execute --limit 5 --items 1
 ```
 
 **Реальная отправка без ограничений (осторожно!)**
-```python sending_retail.py --execute --no-limit
+```bash
+python sending_retail.py --execute --no-limit
 ```
 
 **Тестовый прогон с другими параметрами**
-```sending_retail.py --limit 3 --items 4
+```bash
+sending_retail.py --limit 3 --items 4
 ```
