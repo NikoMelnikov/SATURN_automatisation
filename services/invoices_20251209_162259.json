@@ -1,0 +1,122 @@
+[
+  {
+    "com": "execOperation",
+    "oid": "0",
+    "op": "static/createNew()",
+    "otype": "Invoice",
+    "opargs": {
+      "theCard": {
+        "head": {
+          "docDate": "2025-12-09T13:22:55.445510+00:00",
+          "docNote": "Invoice_to_retail_1_items",
+          "docNum": "20251209-001",
+          "name": "Подготовка для списания в розницу (1 позиций)",
+          "receiverContractorId": 248824,
+          "sourceWarehouseId": 1077174
+        },
+        "tbrDtoList": [
+          {
+            "batchId": 463001168711,
+            "countPuSent": 11.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "com": "execOperation",
+    "oid": "0",
+    "op": "static/createNew()",
+    "otype": "Invoice",
+    "opargs": {
+      "theCard": {
+        "head": {
+          "docDate": "2025-12-09T13:22:55.445510+00:00",
+          "docNote": "Invoice_to_retail_1_items",
+          "docNum": "20251209-002",
+          "name": "Подготовка для списания в розницу (1 позиций)",
+          "receiverContractorId": 248824,
+          "sourceWarehouseId": 1077174
+        },
+        "tbrDtoList": [
+          {
+            "batchId": 463001168712,
+            "countPuSent": 11.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "com": "execOperation",
+    "oid": "0",
+    "op": "static/createNew()",
+    "otype": "Invoice",
+    "opargs": {
+      "theCard": {
+        "head": {
+          "docDate": "2025-12-09T13:22:55.445510+00:00",
+          "docNote": "Invoice_to_retail_1_items",
+          "docNum": "20251209-003",
+          "name": "Подготовка для списания в розницу (1 позиций)",
+          "receiverContractorId": 248824,
+          "sourceWarehouseId": 1077174
+        },
+        "tbrDtoList": [
+          {
+            "batchId": 463001168713,
+            "countPuSent": 11.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "com": "execOperation",
+    "oid": "0",
+    "op": "static/createNew()",
+    "otype": "Invoice",
+    "opargs": {
+      "theCard": {
+        "head": {
+          "docDate": "2025-12-09T13:22:55.445510+00:00",
+          "docNote": "Invoice_to_retail_1_items",
+          "docNum": "20251209-004",
+          "name": "Подготовка для списания в розницу (1 позиций)",
+          "receiverContractorId": 248824,
+          "sourceWarehouseId": 1077174
+        },
+        "tbrDtoList": [
+          {
+            "batchId": 463001168714,
+            "countPuSent": 11.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "com": "execOperation",
+    "oid": "0",
+    "op": "static/createNew()",
+    "otype": "Invoice",
+    "opargs": {
+      "theCard": {
+        "head": {
+          "docDate": "2025-12-09T13:22:55.445510+00:00",
+          "docNote": "Invoice_to_retail_1_items",
+          "docNum": "20251209-005",
+          "name": "Подготовка для списания в розницу (1 позиций)",
+          "receiverContractorId": 248824,
+          "sourceWarehouseId": 1085300
+        },
+        "tbrDtoList": [
+          {
+            "batchId": 463001168734,
+            "countPuSent": 11.0
+          }
+        ]
+      }
+    }
+  }
+]

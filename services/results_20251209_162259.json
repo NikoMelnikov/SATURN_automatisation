@@ -1,0 +1,37 @@
+[
+  {
+    "docNum": "20251209-001",
+    "invoice_id": "4843100",
+    "items_count": 1,
+    "status": "created_and_sent",
+    "timestamp": "2025-12-09T13:22:55.732155+00:00"
+  },
+  {
+    "docNum": "20251209-002",
+    "invoice_id": "4843101",
+    "items_count": 1,
+    "status": "created_and_sent",
+    "timestamp": "2025-12-09T13:22:56.627987+00:00"
+  },
+  {
+    "docNum": "20251209-003",
+    "invoice_id": "4843102",
+    "items_count": 1,
+    "status": "created_and_sent",
+    "timestamp": "2025-12-09T13:22:57.391106+00:00"
+  },
+  {
+    "docNum": "20251209-004",
+    "invoice_id": "4843103",
+    "items_count": 1,
+    "status": "created_and_sent",
+    "timestamp": "2025-12-09T13:22:58.212418+00:00"
+  },
+  {
+    "docNum": "20251209-005",
+    "invoice_id": "4843104",
+    "items_count": 1,
+    "status": "created_and_sent",
+    "timestamp": "2025-12-09T13:22:59.031122+00:00"
+  }
+]
